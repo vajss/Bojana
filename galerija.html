@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+
+
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/gallery.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <title>Galerija</title>
+
+</head>
+
+<body>
+
+    <div class="grid-container">
+        <div class="header">
+            <header>
+                <nav>
+                    <ul>
+                        <!--U headu je dodat drugi tag <scriprt> u okviru koga je referenciran js fajl
+                                u kome se nalazi funkcija 'meni' koja se koristii ovde -->
+                        <li onclick="meni()">Meni</li>
+                        <nav id="menu">
+                            <ul>
+                                <li id="home"><a href="index.html">Početna</a></li>
+                                <li id="o-nama"><a href="onama.html">O nama</a></li>
+                                <li id="galerija"><a href="galerija.html">Slike</a></li>
+                                <li id="rezervacija" class="text"><a href="rezervisi.html">Rezerviši ljubimca</a></li>
+                            </ul>
+                        </nav>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+        <div class="main">
+            <div class="image-container">
+                <div class="gallery-img">
+                    <img height="200" width="300" src="img/slika5.jpg" style="margin-right: 150px">
+                </div>
+                <div class="gallery-img">
+                    <img height="200" width="300" src="img/slika6.jpg" style="margin-right: 150px">
+                </div>
+                <div class="gallery-img">
+                    <img height="200" width="300" src="img/slika7.jpg" style="margin-right: 150px">
+                </div>
+            </div><br>
+            <div class="image-container">
+                <div class="gallery-img">
+                    <img class="img-rounded" alt="Rounded Image" height="200" width="300" src="img/slika8.jpg" style="margin-right: 150px">
+                </div>
+                <div class="gallery-img">
+                    <img class="img-rounded" alt="Rounded Image" height="200" width="300" src="img/slika9.jpg" style="margin-right: 150px">
+                </div>
+                <div class="gallery-img">
+                    <img class="img-rounded" alt="Rounded Image" height="200" width="300" src="img/slika 2.jpg" style="margin-right: 150px">
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <span style="font-size: 20px; margin:0 auto"> Zapratite nas na instagramu:
+                <a href="https://www.instagram.com/vetanima_petshop_beograd/?hl=sr"><img src="img/insta.png" height="40"> </a>
+        </div>
+
+    </div>
+</body>
+
+</html>

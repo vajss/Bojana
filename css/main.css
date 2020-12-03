@@ -1,0 +1,113 @@
+
+
+body{
+  margin: 0;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.header {
+  color: white;
+   grid-area: header; 
+   background-color: #8f8f8f;} 
+   
+.main {
+   background-color:#ffb8f3;
+   grid-area: main;
+   height: 100%;
+  }
+
+.footer { 
+  color: white;
+  background-color: #363636;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 200px;
+ }
+
+.grid-container {
+  font-family: "Arial", serif;
+  display: grid;
+  grid-template-areas:
+          'header header header'
+          'main main main'
+          'footer footer footer';
+  background-color:#ffb8f3;;
+}
+
+
+.grid-container > div {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 40px;
+}
+
+nav {
+  text-align: left;
+  padding-left: 20px;
+  font-size: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  margin-right: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+ li > a {
+  color: white;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(187, 250, 255);
+  text-decoration: none
+}
+
+#menu {
+  display: none;
+  color: rgb(187, 250, 255);
+}
+
+#pocetna-image{
+    margin: 75px auto;
+    background-image: url(../img/slika1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 500px;
+    height:300px;
+    border-radius: 3%;
+}
+
+#dole-image{
+  margin: 75px auto;
+  background-image: url(../img/slika2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 500px;
+  height:500px;
+}
+
+#pozadina-image{
+  margin: 75px auto;
+  background-image: url(../img/pozadina.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 500px;
+  height:500px;
+  border-radius: 3%;
+}
