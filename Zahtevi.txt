@@ -10,7 +10,7 @@ Zahtevi za studente smera menadžment su:
 
 --5.    Obavezno korišćenje Bootstrap ili nekog drugog frontend framework-a.
 
-6.    Potrebno je napraviti sajt bogat sadržajem (tekstovi, slike, linkovi...) korišćenjem HTML i CSS (potrebno je dodati sopstvene karakteristike izvan framework-a, poput boje pozadine, fonta, margina...) tehnologija. 
+--6.    Potrebno je napraviti sajt bogat sadržajem (tekstovi, slike, linkovi...) korišćenjem HTML i CSS (potrebno je dodati sopstvene karakteristike izvan framework-a, poput boje pozadine, fonta, margina...) tehnologija. 
 
 --7.    Sajt realizovati kao kompletnu i jedinstvenu celinu. 
 
