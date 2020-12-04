@@ -4,9 +4,16 @@
 <head>
     <meta charset="UTF-8">
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
 
+    <!--Nas css
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/oNama.css">
+-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="js/main.js"></script>
 
@@ -15,62 +22,39 @@
 </head>
 
 <body>
-    <div class="grid-container">
-        <div class="header">
-            <header>
-                <nav>
-                    <ul>
-                        <!--U headu je dodat drugi tag <scriprt> u okviru koga je referenciran js fajl
-                                u kome se nalazi funkcija 'meni' koja se koristii ovde -->
-                        <li onclick="meni()">Meni</li>
-                        <nav id="menu">
-                            <ul>
-                                <li id="home"><a href="index.html">Početna</a></li>
-                                <li id="o-nama"><a href="onama.html">O nama</a></li>
-                                <li id="galerija"><a href="galerija.html">Slike</a></li>
-                                <li id="rezervacija" class="text"><a href="rezervisi.html">Rezerviši ljubimca</a></li>
-                            </ul>
-                        </nav>
-                    </ul>
-                </nav>
-            </header>
-        </div>
+    <div class="jumbotron">
+            <div class="header">
+                <div class="cotainer-fluid">
+                    <nav class="navbar navbar-inverse" id="menu">
+                        <ul class="nav nav-tabs">
+                            <li class="active" id="home"><a class="navbar-brand" href="index.html"> Početna </a></li>
+                            <li class="active" id="o-nama"><a class="navbar-brand" href="onama.html"> O nama </a></li>
+                            <li id="galerija"><a class="navbar-brand" href="galerija.html"> Slike </a></li>
+                            <li id="rezervacija"><a class="navbar-brand" href="rezervisi.html"> Rezerviši ljubimca </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
         <div class="main">
-            <h1 style="font-size: 60px">Ko smo mi?</h1>
-            <p>Priča počinje krajem prošlog veka, tačnije, 16. decembra 1863. Dvadesetdvogodišnji
-                Gerard Adriaan Heineken je toga dana kupio pivaru De Hootherg do tada najveću u Amsterdamu,
-                osnovanu još 1572. godine i nazvao je Heineken and Co.</p>
+            <h1 style="font-size: 48px">Ko smo mi?</h1>
+            <p>Veterinarska apoteka i pet shop Happy dog club je specijalizovana samoposluga za kućne ljubimce,
+                osnovana 2008 god. kao rezultat višegodišnjeg iskustva u
+                pet programu. U okviru naših radnji uvek možete dobiti stručan savet od
+                naših ljubaznih veterinara. Mi smo jedna mala porodica, a naš cilj je da se svaki potrošač oseća veoma
+                prijatno i usluženo u našoj kući.</p>
 
-            <p>S obzirom da je prodaja rapidno rasla, pivara u centru Amsterdama je ubrzo postala suviše mala. Godine
-                1867. počela je gradnja nove,
-                veće pivare smeštene nešto dalje od strogog centra,
-                koja je bila aktivna sve do nedavno kada je renovirana i pretvorena u poslovnu zgradu..</p>
+                <h1 style="font-size: 48px">Šta vam možemo ponuditi?</h1>
+                <p>Pet shop Hrčak, raspolažu širokim asortimanom hrane i 
+                opreme za pse, mačke, ptice, glodare i ostale kućne ljubimce, kao i veterinarskim dijetama, 
+                suplementima i lekovima. Sve pet proizvode dostavljamo i 
+                na kućnu adresu, ako ih poručite putem naše web shop prodavnice</p>
 
-            <p>Osnivač i prvi vlasnik, G. A. Heineken je imao sluha za nova otkrića u svetu piva.
-                On je uveo dubinsku fermentaciju piva i proputovao je Evropu u potrazi za najboljim sastojcima.
-                Kompanija je imala sopstvenu laboratoriju, u to vreme jedinstvenu, u kojoj se vršila kontrola kvaliteta
-                osnovnih sastojaka i finalnog proizvoda.
-                Dr Henry Pierre Heineken, sin osnivača kompanije, nastavio je ubrzani razvoj firme. Da usavrši proces
-                vrenja piva, smatrao je svojim životnim pozivom.
-                Shvatio je da samo proizvod kontinuirano visokog kvaliteta može biti uspešan, što je presudna stvar za
-                proizvod kao što je pivo.</p>
 
-            <p>Njegov je pristup prihvatio i nastavio Alfred H. Heineken, koji je od 1950. godine na čelu kompanije,
-                kojoj je dao osobeni pečat, poznat širom sveta.
-                Zahvaljujući tome što je imao sluha za važnost promocije i marketinga u pozicioniranju proizvoda,
-                Heineken pivo je postalo sinonim za prepoznatljivost i kvalitet.
-                Čuvene su reči ovog gospodina duhovitog i u 8-oj deceniji života:</p>
-
-            <p>"Da nisam pivar, sigurno bih se bavio marketingom i oglašavanjem. Fascinira me način na koji marketing
-                utiče na ljude...
-                Težak je to poziv, a naročito kada se bavite oglašavanjem piva. To je najteže. Pivo je poznato hiljadama
-                godina i nema bog zna šta novo da se kaže.
-                Sve se na kraju svodi na proizvod.
-                A on mora da bude dobar i što je najvažnije, konstantno visokog kvaliteta. Bocu lošeg piva smatram
-                ličnom uvredom."</p>
-
-            <!--<div id="dole-image"></div>-->
-        </div>
+                <div class="text-center">
+                <img src="img/slika2.png" class="img-responsive" alt="Hrcak mali" style="width:20%">
+            </div>
+            </div>
         <div class="footer">
             <span style="font-size: 20px; margin:0 auto"> Zapratite nas na instagramu:
                 <a href="https://www.instagram.com/vetanima_petshop_beograd/?hl=sr"><img src="img/insta.png"
