@@ -5,17 +5,6 @@
     margin: auto;
 }
 
-
-.grid-container {
-    display: grid;
-    grid-template-areas:
-    'header header header'
-    'main main main'
-    'footer footer footer';
-     background-color: #004225;
-    height: 100vh;
-}
-
 .gallery-img {
     cursor: pointer;
     -webkit-transition:all .4s linear;

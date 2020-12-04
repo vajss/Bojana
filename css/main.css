@@ -1,9 +1,8 @@
 
-
 body{
   margin: 0;
   padding-bottom: 0;
-  background-color:#ffb8f3;
+  background-color:#b6eaff;
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
@@ -18,7 +17,7 @@ body{
    grid-area: main;
    height: 100%;
    padding-top: 2%;
-   background-color:#ffb8f3;
+   background-color:#b6eaff;
   }
 
 .footer { 
@@ -41,16 +40,6 @@ a:hover {
   text-decoration: none
 }
 
-#pocetna-image{
-    margin: 75px auto;
-    background-image: url(../img/slika1.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 500px;
-    height:300px;
-    border-radius: 3%;
-}
-
 #dole-image{
   margin: 75px auto;
   background-image: url(../img/slika2.png);
@@ -60,12 +49,3 @@ a:hover {
   height:500px;
 }
 
-#pozadina-image{
-  margin: 75px auto;
-  background-image: url(../img/pozadina.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 500px;
-  height:500px;
-  border-radius: 3%;
-}

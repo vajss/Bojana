@@ -12,19 +12,14 @@
         crossorigin="anonymous"></script>
 
   
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="js/main.js"></script>
-    <!--
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/contact.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="js/main.js"></script>
-    <script src="js/contact.js"></script>
--->
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/text.css">
+        <link rel="stylesheet" href="css/rezervisi.css">
+ 
 </head>
 
 <body>
-    <div class="jumbotron">
+    <div>
         <div class="header">
             <div class="cotainer-fluid">
                 <nav class="navbar navbar-inverse" id="menu">
@@ -42,12 +37,11 @@
                 </nav>
             </div>
     </div>
-        <div class="main" id="form1">
-            <span>Rezerviši datum preuzimanja ljubimca.</span>
-            <form>
-                <label style="font-size: 20px">Ime i prezime</label><br>
-                <input type="text" name="name" id="name"><br>
-
+        <div class="main text-center " id="form1">
+            <span style="font-size: 30px;">Rezerviši datum preuzimanja ljubimca:</span>
+            <form class="form-group">
+                <input placeholder="Ime i prezime" type="text" name="name" id="name" style="margin-top: 3%;"><br>
+<div class = "odvoji">
                 <select required name="select">
                     <option disabled selected value> Odaberi ljubimca</option>
                     <option>Hrčak</option>
@@ -59,12 +53,13 @@
                     <option>Pingvin</option>
 
                 </select><br>
+            </div>
                 <label style="font-size: 20px">Datum preuzimanja:</label><br>
                 <input type="date" name="datum" id="date"><br>
               
 
             </form>
-            <button type="submit">Rezerviši</button>
+            <button  type="button"  class = "btn btn-success" colo >Rezerviši</button>
         </div>
 
         <div class="footer">
