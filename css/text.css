@@ -1,0 +1,14 @@
+#text{
+    line-height: 75px;
+    font-family: 'Arial', Times, serif;
+    font-size: 40px;
+    color: darkslategray;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+h1{
+    font-size: 48px;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    padding-left: 2%;
+}

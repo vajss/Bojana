@@ -1,0 +1,51 @@
+
+body{
+  margin: 0;
+  padding-bottom: 0;
+  background-color:#b6eaff;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.header {
+  grid-area: header; 
+  background-color: #787580;
+  width: 100%;
+} 
+  
+.main {
+   
+   grid-area: main;
+   height: 100%;
+   padding-top: 2%;
+   background-color:#b6eaff;
+  }
+
+.footer { 
+  color: white;
+  background-color: #787580;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 2px;
+  padding-top: 2px;
+ }
+
+a {
+  color: azure;
+}
+a:hover {
+  color: rgb(187, 250, 255);
+  text-decoration: none
+}
+
+#dole-image{
+  margin: 75px auto;
+  background-image: url(../img/slika2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 500px;
+  height:500px;
+}
+
